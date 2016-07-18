@@ -1,0 +1,26 @@
+{
+  "name": "wschat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "strt":"node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stsuru/wschat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stsuru/wschat/issues"
+  },
+  "homepage": "https://github.com/stsuru/wschat#readme",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "morgan": "^1.7.0",
+    "serve-static": "^1.11.1",
+    "websocket.io": "^0.2.1"
+  }
+}
